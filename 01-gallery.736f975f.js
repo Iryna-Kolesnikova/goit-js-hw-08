@@ -11,5 +11,5 @@ function t(t){return t&&t.__esModule?t.default:t}"use strict";var e="undefined"!
         />
       </a>
     </li>
-  `);c.insertAdjacentHTML("beforeend",h.join("")),c.addEventListener("click",function(e){e.preventDefault(),e.target.classList.contains("gallery__image")&&new(t(o))(".gallery a",{captionsData:"alt",captionDelay:250})});
-//# sourceMappingURL=01-gallery.a86a77bf.js.map
+  `);c.insertAdjacentHTML("beforeend",h.join("")),new(t(o))(".gallery a",{captionsData:"alt",captionDelay:250});
+//# sourceMappingURL=01-gallery.736f975f.js.map
