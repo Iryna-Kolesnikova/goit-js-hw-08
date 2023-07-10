@@ -24,13 +24,6 @@ const markupGalleryItems = galleryItems.map(
 );
 
 containerGalleryItems.insertAdjacentHTML('beforeend', markupGalleryItems.join(''));
-containerGalleryItems.addEventListener('click', onClick);
-
-function onClick(evt) {
-  evt.preventDefault(); // Забороняємо перенаправлення посилання
-  if (!evt.target.classList.contains('gallery__image')) {
-    return;
-  }
 
     const instance = new SimpleLightbox('.gallery a', {
         captionsData: 'alt',
@@ -40,4 +33,3 @@ function onClick(evt) {
   );
 
   
-}
